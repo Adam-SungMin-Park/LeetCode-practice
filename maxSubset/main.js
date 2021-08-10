@@ -11,5 +11,5 @@ function maxSubsetSumNoAdjacent(array) {
 	for(let i = 2 ; i < array.length ; i++){
 		maxSum[i] = Math.max(maxSum[i-1],maxSum[i-2]+array[i]);
 	}
-	return maxSum
+	return maxSum[maxSum.length-1]
 }
