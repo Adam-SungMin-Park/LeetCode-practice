@@ -17,6 +17,7 @@ function tournamentWinner(competitions, results) {
 function updateScores(team, points, scores){
 	if(!(team in scores)) scores[team]= 0;
 	scores[team] += points;
+	console.log('testing')
 }
 
 
