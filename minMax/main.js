@@ -10,5 +10,5 @@ function miniMaxSum(arr) {
     for (let i = 1 ; i < arr.length ; i++){
         max += arr[i];
     }
-    console.log(min,max)
+    return min, max
 }
